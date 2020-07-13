@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: lagou-service-user
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagouedu?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    show-sql: true
